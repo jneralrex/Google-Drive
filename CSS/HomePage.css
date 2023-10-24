@@ -6,17 +6,56 @@
 }
 
 nav{
-border-bottom: 1px solid rgb(223, 217, 233);
-padding: 15px 0px;
+position: fixed;
+height: 50px;
+background-color: white;
 }
-
-.harmbugger-icon {
-  height: 20px;
+.header {
+  padding-left: 20px;
+  display: flex;
+  font-size: 23px;
+}
+.header-ul{
   padding-top: 10px;
+  display: flex;
+  color: black;
+  font-size: 16px;
 }
-.drive-icon{
-  padding-left: 26px;
+.li-words-ov {
+  padding-top: 13px;
+  padding-left: 30px;
 }
+.li-words{
+  padding-top: 13px;
+  margin-left: 15px;
+  }
+  
+.li-last-words-mrtls {
+      padding-top: 13px;
+      padding-left: 200px;
+    }
+ .li-top-try-drive-for-work-btn {
+          padding: 15px 30px 15px 30px;
+          background-color: #0067b8;
+          color: white;
+          border: 1px solid #0067b8;
+          border-radius: 3px;
+ }
+    
+ .li-top-Go-to-drive-btn {
+          padding: 15px 30px 15px 30px;
+          background-color: white;
+          color: #0067b8;
+          border: 1px solid #dbdcde;
+          border-radius: 3px;
+ }
+ .li-last-words{
+  padding-top: 13px;
+  padding-left: 50px;
+ }
+ .last{
+  margin-left: 15px;
+ }
 .header h3 {
   color: rgb(117, 115, 115);
   padding-top: 8px;
@@ -24,18 +63,14 @@ padding: 15px 0px;
   font-size: 21px;
   font-family: "Google Sans", Arial, Helvetica, sans-serif;
 }
-.header {
- padding-left: 20px;
- display: flex;
- font-size: 23px;
-}
+
 .upper-section{
-  padding: 100px 30px 100px 30px;
+ padding: 100px 30px 50px 30px;
 }
 .upper-section-items{
   display: flex;
   height: 500px;
-  padding-left: 100px;
+  padding: 50px 0px 0px 50px;
 }
 .upper-section-text-h1{
   font-size: 60px;
@@ -48,7 +83,8 @@ padding: 15px 0px;
   padding-bottom: 30px;
 }
 .upper-img{
-  height: 450px;
+  padding: 0px 0px 0px 50px;
+  height: 800px;
 }
 .button-ul{
   display: flex;
@@ -108,37 +144,36 @@ hr{
 }
 .below-upper-section-items {
   display: flex;
-  padding-top: 100px;
+  padding: 50px 0px 150px 50px;
 }
-.below-upper-img{
-  height: 500px;
-  padding-left: 100px;
-}
-.below-upper-section-text-h1{
-  padding: 140px 0px 30px 70px;
+.below-upper-section-text-h1 {
+  padding: 140px 0px 20px 30px;
   font-weight: lighter;
   font-size: 32px;
-line-height: 37px;
+  line-height: 37px;
 }
+.below-upper-img{
+  height: 550px;
+  padding: 0px 0px 0px 35px;
+}
+
 .below-upper-section-text-p{
   color: rgb(150, 145, 145);
-  padding: 0px 0px 0px 70px;
+  padding: 0px 0px 0px 30px;
 line-height: 25px;
 }
 
 .center {
-  padding-top: 100px;
-  padding: 50px;
+  padding-top: 100px 50px 0px 50px;
 }
 
 .center-items {
   display: flex;
   height: 500px;
   padding: 0px 30px 100px 30px;
-  margin: 0px 0px 0px 0px;
 }
 .center-text{
-  padding: 175px 0px 0px 20px; 
+  padding: 175px 100px 0px 50px; 
 
 }
 .center-text-h1 {
@@ -147,10 +182,10 @@ line-height: 25px;
 }
 
 .center-text-p {
-  font-size: 17px;
-  font-weight: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
+  color: rgb(150, 145, 145);
+  line-height: 25px;
 }
 .center-img{
   height: 550px;
@@ -158,7 +193,7 @@ line-height: 25px;
 }
 
 .beneath-center-section {
-  padding: 100px 30px 100px 30px;
+  padding: 50px 30px 50px 30px;
 }
 
 .beneath-center-section-items {
@@ -182,6 +217,41 @@ line-height: 25px;
 .beneath-img{
   height: 400px;
 }
+
+.last-pics-section {
+  padding: 50px 30px 50px 30px;
+  
+}
+
+.last-pics-section-items {
+  display: flex;
+  height: 500px;
+  padding: 0px 30px 100px 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.last-pics-section-text {
+  padding: 175px 0px 0px 0px;
+
+}
+
+.last-pics-section-text-h1 {
+  font-weight: lighter;
+
+}
+
+.last-pics-section-text-p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(150, 145, 145);
+  line-height: 25px;
+}
+
+.last-pics-img {
+  height: 500px;
+  padding: 0px 0px 0px 0px;
+}
+
 .upper-section-text-p {
   font-size: 17px;
   font-weight: 200px;
@@ -271,5 +341,16 @@ font-size: 45px;
  margin: 30px;
 }
 .icon p{
- margin: 5px 15px 0px 5px;
+ margin: 5px 15px 0px 0px;
+ text-align: center;
+ padding-bottom: 100px;
+}
+.words{
+  text-align: center;
+}
+.logo-one-img{
+  padding-left: 100px;
+}
+.logo-pics-img{
+  align-items: center;
 }

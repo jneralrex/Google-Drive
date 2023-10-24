@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+nav{
+    padding: 10px 20px;
+    box-shadow: 0 1px 1px 0 rgba(177, 177, 177, 0.75);
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+
+}
+.hamburger img{
+    width: 20px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hamburger{
+    padding-right: 20px;
+}
+.hamburger img:hover{
+    width: 20px;
+    background-color: #f7f3f3;
+    padding: 10px;
+    border-radius: 5px;
+}
+.google-logo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.google-logo img{
+    background-color: transparent;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.google-logo:hover{
+    background-color: #f7f3f3;
+    border-radius: 5px;
+}
+.google-logo-text{
+    display: flex;
+}
+.google-logo-text-p1{
+    margin: 10px 0;
+    font-size: 23px;
+    color: black;
+}
+.google-logo-text-p1:hover{
+    margin: 10px 0;
+    font-size: 23px;
+    color: black;
+}
+.google-logo-text-p2{
+    margin: 10px 10px;
+    font-size: 23px;
+    color: #5f6368;
+}
+.Section-one{
+    padding-top: 100px;
+    margin: 0 100px;
+    display: flex;
+}
+.Section-one-text-p1{
+    font-size: 35px;
+    letter-spacing: 0;
+}
+.Section-one-text-p2{
+    padding-top: 15px;
+}
+.Button{
+    padding-top: 15px;
+}
+.Button button{
+    border-radius: 5px;
+}
+.drive-image{
+    margin: 0 30px;
+}
+.drive-image img{
+    width: 500px;
+}
+.mini-text{
+    display: flex;
+    padding-top: 25px;
+}
+.mini-text-p2{
+    color: rgb(62, 62, 177);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mini-text-p2:hover{
+    background-color: lightblue;
+    color: rgb(0, 0, 110);
+    border-radius: 4px;
+}
+.mini-text p{
+    margin: 0 5px;
+    font-size: 13px;
+}
+.Section-two{
+    display: flex;
+    padding-top: 100px;
+    margin: 0 100px;
+}
+.Section-three{
+    display: flex;
+    padding-top: 100px;
+    margin: 0 100px;
+}
+.Section-four{
+    display: flex;
+    padding-top: 100px;
+    margin: 0 100px;
+}
+.Section-five{
+    display: flex;
+    padding-top: 100px;
+    margin: 0 100px;
+}
+.section-one{
+    text-align: center;
+    background-color: #f9f4f4;
+    margin: 15px;
+    padding-top: 90px;
+    margin-top: 100px;
+    
+}
+.section-one p{
+    font-size: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.logos img{
+    margin: 0 10px;
+}
+.section-two{
+    box-shadow: inset;
+    margin: 100px;
+    padding: 70px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: transparent;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 0 3px 3px 0 rgba(177, 177, 177, 0.75);
+}
+.section-two img{
+    width: 100px;
+}
+.section-two p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.section-two a{
+    text-decoration: none;
+    color: rgb(100, 100, 247);
+    transition: 0.5s;
+}
+.section-two a:hover{
+    color: rgb(4, 4, 101);
+}
+.section-three{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.logos-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.logos-two img{
+    margin: 0 10px;
+    width: 120px;
+    transition: 0.5S;
+    border: none;
+}
+.logos-two img:hover{
+    box-shadow: 0 3px 3px 0 rgba(177, 177, 177, 0.75);
+}
+.section-four{
+    text-align: center;
+    padding-top: 70px;
+}
+.section-four-p1{
+    font-size: 30px;
+}
+.section-four h5{
+    font-weight: lighter;
+    padding-top: 10px;
+}
+.section-four-p2{
+    padding-top: 10px;
+}
+.logos-three{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.logos-three img{
+    margin: 0 7px;
+}
+.logos-three-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
+.logos-three-text p{
+    margin: 0 8px;
+    font-size: smaller;
+}
+.section-five{
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+}
+.section-five-p1{
+    font-size: 30px;
+}
+.section-five img{
+    padding-top: 10px;
+}
+.section-five-p3{
+    padding-top: 15px;
+    color: rgb(76, 76, 254);
+}
+.section-six{
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.section-six p{
+    font-size: 30px;
+}
+.section-six button{
+    margin-top: 35px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.button-one{
+    padding: 10px;
+    background-color: rgb(56, 56, 237);
+    color: white;
+    border: none;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+.button-two{
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(56, 56, 237);
+    border: 1px solid rgb(239, 239, 239);
+    transition: 0.5s;
+    margin-top: 15px;
+}
+.button-one:hover{
+    background-color: rgb(1, 1, 110);
+}
+.button-two:hover{
+    background-color: lightblue;
+    border: 1px solid rgb(56, 56, 237);
+}
+.Section{
+    padding-top: 25px;
+}
+.footer{
+    display: flex;
+    margin: 0 40px;
+    background-color: rgb(255, 254, 254);
+}
+.logos-four{
+    margin: 0 10px;
+}
+.logos-four img{
+    width: 30px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.logos-four img:hover{
+    background-color: gray;
+    border-radius: 100%;
+}
+.footer-two{
+    display: flex;
+    margin: 0 40px;
+    padding-top: 20px;
+    white-space: nowrap;
+}
+.footer-two p{
+    margin: 0 10px;
+}
+.footer-three{
+    display: flex;
+    margin: 0 300px;
+}
+.footer-three img{
+    width: 30px;
+}
+.footer-three img:hover{
+    background-color: gray;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.program-image img{
+    
+    width: 200px;
+}
